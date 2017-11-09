@@ -21,7 +21,7 @@ noun2 = input()
 print("Write another noun")
 noun3 = input()
 
-print("Write an adjective")
+print("Write another adjective")
 adjective1 = input()
 
 print("Write another adjective")
@@ -33,18 +33,24 @@ verb1 = input()
 print("Write another verb")
 verb2 = input()
 
-print("Write a verb you can do to someone else. Example: attack")
+print("Write a verb")
 verb3 = input()
+
+print("Write another verb")
+verb4 = input()
 
 print("Write a day of the week")
 weekday1 = input().title()
 
+print("Write a city")
+city1 = input().title()
+
 print("Write a country")
-country1 = input().title
+country1 = input().title()
 
 ### MAD LIB ###
 
-print("After " + name1 + " " + verb1 +" the " + adjective1 + " " + noun1 + ", " + gender1 + " decided to " + verb2 + " " + name2 + "." " Then " + gender1 +
-      " took the " + adjective2 + noun3" of " + name3 + " which " + name1 + " had " + verb3 + " on " + weekday1 + " and sent it to " + country1 + ".")
+print("After " + name1 + " " + verb1 +" the " + adjective1 + " " + noun1 + ", " + gender1 + " decided to " + verb2 + " " + name2 + ".")
+print("Then " + gender1 + " took the " + adjective2 + " " + noun3 + " of " + name3 + " which " + name1 + " had " + verb3 + " on " + weekday1 + " and " + verb4 + " it to " +city1 + ", " +country1 + ".")
 
 time.sleep(60)
