@@ -1,3 +1,5 @@
+import time
+
 print("Write a name")
 name1 = input()
 
@@ -44,3 +46,5 @@ country1 = input().title
 
 print("After " + name1 + " " + verb1 +" the " + adjective1 + " " + noun1 + ", " + gender1 + " decided to " + verb2 + " " + name2 + "." " Then " + gender1 +
       " took the " + adjective2 + noun3" of " + name3 + " which " + name1 + " had " + verb3 + " on " + weekday1 + " and sent it to " + country1 + ".")
+
+time.sleep(60)
